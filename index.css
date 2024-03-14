@@ -1,0 +1,56 @@
+body{
+  min-width: 400px;
+}
+
+#container{
+ background-color: #B3A398;
+  margin-top: 15px;
+  border: 2px solid black;
+  width: 50%;
+  margin-left: 25%;
+}
+h2, h3{
+  padding-right: 35px;
+  margin-left: 15px;
+  color: #65451F;
+  font-weight: 400;
+  font-family: "Protest Riot", sans-serif;
+}
+
+#make-task{
+  margin-left: 15px;
+
+}
+
+#tasks, h3{
+  box-sizing: border-box;
+  width: 73%;
+  margin-right: 5px;
+  height: 35px;
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 8px;
+  /* color: #fff; */
+}
+
+button{
+  height: 35px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+button:active{
+  background-color: aquamarine;
+}
+
+#ul-el{
+  font-size: 25px;
+  list-style: lower-roman;
+  font-family: "Protest Riot", sans-serif;
+
+}
+
+#delete-btn{
+  background-color: #c40e39;
+  color: #fff;
+}
